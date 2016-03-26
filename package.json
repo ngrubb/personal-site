@@ -2,10 +2,10 @@
   "name": "dev",
   "version": "0.0.0",
   "description": "personal website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "main": "server.js",
+  "dependencies": {
+    "mongoose":  "latest",
+    "morgan":    "latest",
+    "socket.io": "latest"
+  }
 }
